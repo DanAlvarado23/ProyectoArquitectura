@@ -52,4 +52,169 @@
 		li $t2, 900
 		add $t2, $t2, $s0 
 		sw $t7, ($t2)#coloca la llave
+#en esta seccion se ponen los bloques que van dentro de la mina
+		li $t3, BLOQUE 
+		li $t2, 88
+		add $t2, $t2, $s0
+		sw $t3, ($t2)
+		addi $t2, $t2, 48
+		sw $t3, ($t2)
+		addi $t2, $t2, 4
+		sw $t3, ($t2)
+		addi $t2, $t2, 4
+		sw $t3, ($t2)
+		addi $t2, $t2, 8
+		sw $t3, ($t2)
+		addi $t2, $t2, 8
+		sw $t3, ($t2)
+		addi $t2, $t2, 4
+		sw $t3, ($t2)
+		addi $t2, $t2, 8
+		sw $t3, ($t2)
+		addi $t2, $t2, 4
+		sw $t3, ($t2)
+		addi $t2, $t2, 24
+		sw $t3, ($t2)
+		addi $t2, $t2, 8
+		sw $t3, ($t2)
+		addi $t2, $t2, 8
+		sw $t3, ($t2)
+		addi $t2, $t2, 24
+		sw $t3, ($t2)
+		addi $t2, $t2, 4
+		sw $t3, ($t2)
+		addi $t2, $t2, 20
+		sw $t3, ($t2)
+		addi $t2, $t2, 8
+		sw $t3, ($t2)
+		addi $t2, $t2, 8
+		sw $t3, ($t2)
+		addi $t2, $t2, 8
+		sw $t3, ($t2)
+		addi $t2, $t2, 4
+		sw $t3, ($t2)
+		addi $t2, $t2, 4
+		sw $t3, ($t2)
+		addi $t2, $t2, 12
+		sw $t3, ($t2)
+		addi $t2, $t2, 20
+		sw $t3, ($t2)
+		addi $t2, $t2, 8
+		sw $t3, ($t2)
+		addi $t2, $t2, 24
+		sw $t3, ($t2)
+		addi $t2, $t2, 4
+		sw $t3, ($t2)
+		addi $t2, $t2, 8
+		sw $t3, ($t2)
+		addi $t2, $t2, 28
+		sw $t3, ($t2)
+		addi $t2, $t2, 4
+		sw $t3, ($t2)
+		addi $t2, $t2, 4
+		sw $t3, ($t2)
+		addi $t2, $t2, 4
+		sw $t3, ($t2)
+		addi $t2, $t2, 4
+		sw $t3, ($t2)
+		addi $t2, $t2, 12
+		sw $t3, ($t2)
+		addi $t2, $t2, 8
+		sw $t3, ($t2)
+		addi $t2, $t2, 20
+		sw $t3, ($t2)
+		addi $t2, $t2, 24
+		sw $t3, ($t2)
+		addi $t2, $t2, 8
+		sw $t3, ($t2)
+		addi $t2, $t2, 4
+		sw $t3, ($t2)
+		addi $t2, $t2, 8
+		sw $t3, ($t2)
+		addi $t2, $t2, 20
+		sw $t3, ($t2)
+		addi $t2, $t2, 4
+		sw $t3, ($t2)
+		addi $t2, $t2, 4
+		sw $t3, ($t2)
+		addi $t2, $t2, 8
+		sw $t3, ($t2)
+		addi $t2, $t2, 8
+		sw $t3, ($t2)
+		addi $t2, $t2, 20 #564
+		sw $t3, ($t2)
+		addi $t2, $t2, 16
+		sw $t3, ($t2)
+		addi $t2, $t2, 4
+		sw $t3, ($t2)
+		addi $t2, $t2, 16
+		sw $t3, ($t2)
+		addi $t2, $t2, 8
+		sw $t3, ($t2)
+		addi $t2, $t2, 4
+		sw $t3, ($t2)
+		addi $t2, $t2, 8
+		sw $t3, ($t2)
+		addi $t2, $t2, 4
+		sw $t3, ($t2)
+		addi $t2, $t2, 4
+		sw $t3, ($t2)
+		addi $t2, $t2, 28
+		sw $t3, ($t2)
+		addi $t2, $t2, 8
+		sw $t3, ($t2)
+		addi $t2, $t2, 20
+		sw $t3, ($t2)
+		addi $t2, $t2, 28
+		sw $t3, ($t2)
+		addi $t2, $t2, 8
+		sw $t3, ($t2)
+		addi $t2, $t2, 8
+		sw $t3, ($t2)
+		addi $t2, $t2, 8
+		sw $t3, ($t2)
+		addi $t2, $t2, 4
+		sw $t3, ($t2)
+		addi $t2, $t2, 8
+		sw $t3, ($t2)
+		addi $t2, $t2, 8 #756
+		sw $t3, ($t2)
+		addi $t2, $t2, 20
+		sw $t3, ($t2)
+		addi $t2, $t2, 28
+		sw $t3, ($t2)
+		addi $t2, $t2, 8
+		sw $t3, ($t2)
+		addi $t2, $t2, 8
+		sw $t3, ($t2)
+		addi $t2, $t2, 16
+		sw $t3, ($t2)
+		addi $t2, $t2, 4
+		sw $t3, ($t2)
+		addi $t2, $t2, 8
+		sw $t3, ($t2)
+		addi $t2, $t2, 8
+		sw $t3, ($t2)
+		addi $t2, $t2, 4
+		sw $t3, ($t2)
+		addi $t2, $t2, 4
+		sw $t3, ($t2)
+		addi $t2, $t2, 4
+		sw $t3, ($t2)
+		addi $t2, $t2, 8
+		sw $t3, ($t2)
+		addi $t2, $t2, 8
+		sw $t3, ($t2)
+		addi $t2, $t2, 4
+		sw $t3, ($t2)
+		addi $t2, $t2, 24
+		sw $t3, ($t2)
+		addi $t2, $t2, 28
+		sw $t3, ($t2)
+		li $t7, 0x0ffff0
+		li $t2, 68
+		add $t2, $t2, $s0 
+		sw $t7, ($t2)#coloca al jugador en la posicion inicial
+		jr $ra
+
 
